@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "SoundCloud Lyrics",
+  "version": "5.13.0",
+  "description": "Multi-source SoundCloud lyrics with sync-first ranking, source picker, karaoke and manual editor",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://lrclib.net/*",
+    "https://api.betterlyrics.org/*",
+    "https://api.lrcmux.dev/*",
+    "https://api.liriqo-alfarrizi.my.id/*",
+    "https://api.amll.dev/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://soundcloud.com/*",
+        "https://www.soundcloud.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
