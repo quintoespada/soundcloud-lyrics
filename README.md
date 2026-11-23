@@ -20,7 +20,3 @@ Chrome Manifest V3 extension for SoundCloud with synchronized lyrics, word-by-wo
 ## Notes
 
 Some providers may be unavailable, change their APIs, or reject cross-origin requests. Results depend on catalog coverage. Not affiliated with SoundCloud or any lyrics provider.
-
-## Publishing on GitHub
-
-Create a public repository (for example `soundcloud-lyrics`) and upload `manifest.json`, `content.js`, and `README.md` at the repository root. To install from a cloned repository, choose its root folder in **Load unpacked**. Add a license only after deciding how you want to license the extension.
